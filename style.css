@@ -1,0 +1,193 @@
+.n1{
+	background-color: #4A235A;
+	height: 200px;
+	margin: 5px 5px;
+	font: verdana;
+	color: white;
+	min-width: 300px;
+}
+
+.head{
+	background-color: #4A235A;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+	height: 50px;
+	margin: 5px;
+	width: 100%;
+}
+
+#myDropdown{
+	display: none;
+}
+
+#myInput{
+	height:30px;
+	margin: 5px 1%;
+	width: 98%;
+	pading:5px;
+}
+
+.sb{
+	background-color: #4A235A;
+	height: 40px;
+	margin: 5px;
+	width: 100%;
+}
+
+.n1 img{
+	height: 200px;
+	width: 40%;
+}
+
+.n1 span{
+	font-size: 40px;
+}
+
+.n2{
+	background-color: #4A235A;
+	height: 470px;
+	margin: 5px;
+	min-width: 300px;
+}
+
+.tx{
+	font-size: 28px;
+	margin: 5px;
+	color: white;
+}
+
+.n3{
+	background-color: #4A235A;
+	height: 90px;
+	margin: 5px;
+}
+.n3 span{
+	font-size: 18px;
+	color: white;
+	align-content: right;
+	margin: 1px;
+}
+
+.n3 img {
+	height: 90px;
+	width: 100%;
+	max-width: 200px;
+}
+
+
+
+@media only screen and (max-width: 991px){
+	.n3{
+		height: 60px;
+	}
+
+	.n3 img{
+		height: 60px;
+	}
+
+	.n2{
+		height: 320px;
+	}
+
+	.n1 span{
+		font-size: 35px;
+	}
+
+	.n1{
+		height: 150px;
+	}
+
+	.n1 img{
+		height: 150px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.n1 span{
+		font-size: 25px;
+	}
+	.n1 img{
+		width:40%;
+		height: 125px;
+	}
+
+	.n1{
+		height: 125px;
+	}
+}
+
+
+@media only screen and (max-width: 575px){
+	.n3{
+		margin: 50px 0px 0px 0px;
+		width: 200px;
+		height: 100px;
+	}
+
+	.n3 img{
+		width: 200px;
+		height: 100px
+	}
+
+	.n3 span{
+		background-color:  #4A235A;
+	}
+
+	.n2{
+		height: 350px;
+	}
+
+	.tx{
+		font-size: 20px;
+	}
+
+	.n1 img{
+		width:40%;
+		height: 125px;
+	}
+
+	.n1{
+		height: 125px;
+	}
+
+}
+
+@media only screen and (max-width: 531px)
+{
+	.n1{
+		height: 175px;
+	}
+
+	.n1 img{
+		width:100%;
+		height: 125px;
+	}
+
+	.n2{
+		height: 300px;
+	}
+}
+
+
+@media only screen and (max-width: 450px){
+	.n2{
+		height: 260px;
+	}
+
+	.n3{
+		width:200px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	.n2{
+		height: 210px;
+	}
+
+
+
+	.tx{
+		font-size: 20px;
+	}
+}
